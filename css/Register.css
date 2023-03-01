@@ -1,0 +1,177 @@
+.form-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-image: url(../Images/background-diamond.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.form-holder .form-content {
+  position: relative;
+  text-align: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.form-content .form-items {
+  border: 3px solid #ffa500;
+  background-color: #fff;
+  padding: 40px;
+  display: inline-block;
+  width: 100%;
+  min-width: 540px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-align: left;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.form-content h3 {
+  color: #fff;
+  text-align: left;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-content h3.form-title {
+  margin-bottom: 30px;
+}
+
+.form-content p {
+  color: #fff;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+
+.form-content label, .was-validated .form-check-input:invalid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label{
+  color:#121756;
+}
+
+.form-content input[type=text], .form-content input[type=password], .form-content input[type=email], .form-content select {
+  width: 100%;
+  padding: 9px 20px;
+  text-align: left;
+  border: 2px solid #121756;
+  outline: 0;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  color: #121756;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-top: 16px;
+}
+.valid-feedback{
+  border: 2px solid #121756;
+}
+
+
+.btn-primary{
+  background-color: #6C757D;
+  outline: none;
+  border: 1px solid darksalmon;
+   box-shadow: none;
+   align-items: center;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+  background-color: #495056;
+  outline: none !important;
+  border: none !important;
+  box-shadow: none;
+}
+
+.form-content textarea {
+  position: static !important;
+  width: 100%;
+  padding: 8px 20px;
+  border-radius: 6px;
+  text-align: left;
+  background-color: #121756;
+  border: 0;
+  font-size: 15px;
+  font-weight: 300;
+  color: #121756;
+  outline: none;
+  resize: none;
+  height: 120px;
+  -webkit-transition: none;
+  transition: none;
+  margin-bottom: 14px;
+}
+
+.form-content textarea:hover, .form-content textarea:focus {
+  border: 0;
+  background-color: #121756;
+  color: #121756;
+}
+
+.mv-up{
+  margin-top: -9px !important;
+  margin-bottom: 8px !important;
+}
+
+.invalid-feedback{
+  color: #ff606e;
+}
+
+.valid-feedback{
+ color: #2acc80;
+}
+.form-check{
+  color: #121756;
+  border: 0px solid #121756;
+  text-align: center;
+}
+.form-button{
+  align-items: center;
+  text-align: center;
+}
+.form-button a{
+  text-decoration: none;
+  color: #000;
+}
+.form-button .btn{
+  background-color: #ffa500;
+}
+.form-button .btn:hover{
+  background-color: darkgray;
+}
+.form-check-input{
+  align-items: center;
+}
+.login h1{
+  text-align: center;
+  font-size: 15px;
+}
+.heading h1{
+  font-size: 22px;
+  font-weight: 500;
+  align-items: center;
+  text-align: center;
+}
+.heading p{
+  color: blue;
+  font-size: 12px;
+}
