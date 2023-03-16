@@ -118,6 +118,23 @@
         max-height: 45px;
     }
 }
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 51rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #808B8D;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 0px;
+    right:5px;
+}
 
 @media (min-width: 992px) {
     .navbar-light {
@@ -434,4 +451,26 @@
 .bg-primary{
     background-color: #ffa500;
 }
-
+.card-packages {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0px;
+}
+.title h6{ 
+    font-weight: 500;
+    font-size: 14px;
+    color: #c2282a;
+    line-height: 18px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #c6c6c6;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.cities li a{
+    font-size: 12px;
+}
